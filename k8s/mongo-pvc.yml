@@ -6,7 +6,7 @@ metadata:
 spec:
   accessModes:
     - ReadWriteOnce
+  storageClassName: "mongo-pv-local" 
   resources:
     requests:
-      storage: 1Gi
-  storageClassName: standard
+      storage: 5Gi  
